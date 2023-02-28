@@ -1,0 +1,7 @@
+[packages]
+sqlalchemy = "*"
+pbr = "==5.11.1"
+setuptools = "==67.0.0" # setuptools 67 fails when running `pipenv run pip wheel . -w ./wheelhouse`, change to 66.1.1 or earlier and build_wheels.sh works
+
+[requires]
+python_version = "3.9"
