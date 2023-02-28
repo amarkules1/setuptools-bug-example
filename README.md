@@ -1,0 +1,1 @@
+# setuptools-bug-example
